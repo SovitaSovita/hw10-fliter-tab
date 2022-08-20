@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        .navbar{
+            background-color: #0985e337;;
+        }
+        .navbar .container .active{
+            color: white;
+        }
+        .card{
+            height: 400px;
+            padding-bottom: 12px;
+        }
+
+        .level-all{
+            width: 75px;
+            background-color: #8d44ad36;
+        }
+        .level-bg{
+            width: 80px;
+            background-color: #2ecc7029;
+        }
+        .level-all p{
+            color: #8e44ad;
+            font-size: 14px;
+        }
+        .level-bg p{
+            color: #2ecc71;
+            font-size: 14px;
+        }
+        div[class="text-muted"]{
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="h2 fw-bold text-center">Most Popular Courses</div>
+        <div class="text-muted text-center mb-3">Choose from hundreds of courses from specialist organizations</div>
+        <nav>
+            <div class="navbar nav-pills rounded-3 text-primary" id="nav-tab" role="tablist">
+              <div class="container w-lg-75 d-flex justify-content-lg-evenly justify-content-between">
+                <button class="btn px-2 py-1 nav-link active" id="nav-web-tab" data-bs-toggle="tab" data-bs-target="#nav-web" type="button" role="tab" aria-controls="nav-web" aria-selected="true">Web Design</button>
+                <button class="btn px-2 py-1 nav-link" id="nav-develop-tab" data-bs-toggle="tab" data-bs-target="#nav-develop" type="button" role="tab" aria-controls="nav-develop" aria-selected="false">Develop</button>
+                <button class="btn px-2 py-1 nav-link" id="nav-design-tab" data-bs-toggle="tab" data-bs-target="#nav-design" type="button" role="tab" aria-controls="nav-design" aria-selected="false">Graphic</button>
+                <button class="btn px-2 py-1 nav-link" id="nav-marketing-tab" data-bs-toggle="tab" data-bs-target="#nav-marketing" type="button" role="tab" aria-controls="nav-marketing" aria-selected="false">Marketing</button>
+                <button class="btn px-2 py-1 nav-link" id="nav-finance-tab" data-bs-toggle="tab" data-bs-target="#nav-finance" type="button" role="tab" aria-controls="nav-finance" aria-selected="false">Finance</button>
+              </div>
+            </div>
+        </nav>
+        <div class="tab-content mt-3" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item html">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/11.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="main-level d-flex justify-content-between">
+                                <div class="level-bg text-center rounded-2 px-2">
+                                    <p class="mb-2">Binginner</p>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="22" fill="red" class="bi bi-heart-fill" viewBox="0 -3 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                                </svg>
+                              </div>
+                              <div class="h5">Build Responsive Website with HTML</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      32 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item css">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/12.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">Build Responsive Website with HTML</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      32 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item react">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/07.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">Deep Learning with React Native</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      15 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item js">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/09.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">JavaScript: Full Understanding</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      32h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      89 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item sketch">
+                        <div class="card border-0 pb-2 h-100 shadow-lg">
+                          <img src="course/08.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">Sketch from A to Z: for app design</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white border-top pt-2">
+                                <div class="text-muted">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                    <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                    <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                  </svg>
+                                    12h 56m
+                                </div>
+                                <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                        <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                    </svg>
+                                    15 Lecture
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item ph-shop">
+                        <div class="card border-0 pb-2 h-100 shadow-lg">
+                          <img src="course/02.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">Graphic Design MasterClass</div>
+                              <div class="text-muted">Rooms oh fully taken by worse do Points to the Rooms...</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      09h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      56 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 mt-lg-0 card-item figma">
+                        <div class="card border-0 h-100 shadow-lg">
+                          <img src="course/03.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">Create a Design System in Figma</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      15 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item bs">
+                        <div class="card border-0 h-100 shadow-lg">
+                          <img src="course/10.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">Create a Design in BootStrap</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      15 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-develop" role="tabpanel" aria-labelledby="nav-develop-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item argular">
+                        <div class="card border-0 pb-2 h-100 shadow-lg">
+                          <img src="course/06.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All Level</p>
+                              </div>
+                              <div class="h5">Argular MasterClass</div>
+                              <div class="text-muted">Rooms oh fully taken by worse do Points to the Rooms...</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      09h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      56 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item php">
+                        <div class="card border-0 h-100 shadow-lg">
+                          <img src="course/13.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">PHP: For Biginner</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      15 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item python">
+                        <div class="card border-0 h-100 shadow-lg">
+                          <img src="course/05.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">Python: For Biginner</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      15 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item ph-shop">
+                        <div class="card border-0 pb-2 h-100 shadow-lg">
+                          <img src="course/02.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">Graphic Design MasterClass</div>
+                              <div class="text-muted">Rooms oh fully taken by worse do Points to the Rooms...</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      09h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      56 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 mt-0 card-item figma">
+                        <div class="card border-0 h-100 shadow-lg">
+                          <img src="course/03.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-bg text-center rounded-2 px-2">
+                                <p class="mb-2">Beginner</p>
+                              </div>
+                              <div class="h5">Create a Design System in Figma</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      12h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      15 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show" id="nav-marketing" role="tabpanel" aria-labelledby="nav-marketing-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item linkin">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/04.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">LinkIn: Full Understanding</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      32h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      89 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item ielts">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/23.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">IELTS: Full Understanding</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      32h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      89 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show" id="nav-finance" role="tabpanel" aria-labelledby="nav-finance-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item duoligo">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/24.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">Duolingo: Full Understanding</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      32h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      89 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 mt-lg-0 card-item gre">
+                        <div class="card border-0 h-100 pb-2 shadow-lg">
+                          <img src="course/25.jpg" class="img-fluid rounded-top">
+                          <div class="card-body pb-0">
+                              <div class="level-all text-center rounded-2 px-2">
+                                <p class="mb-2">All level</p>
+                              </div>
+                              <div class="h5">GRE: Full Understanding Finance</div>
+                              <div class="text-muted">Proposal indulged no do sociable he throwing setting.</div>
+                              <div class="h6 mt-2 pb-2">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48 (1).png" class="img-fluid" width="15px">
+                                <img src="course/Star/icons8-star-half-empty-48.png" class="img-fluid" width="15px">
+                              </div>
+                              <div class="d-flex justify-content-evenly bg-white pt-2 border-top">
+                                  <div class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="red" class="bi bi-stopwatch" viewBox="0 2 16 16">
+                                      <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+                                      <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+                                    </svg>
+                                      32h 56m
+                                  </div>
+                                  <div class="text-muted">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="green" class="bi bi-bank" viewBox="0 3 16 16">
+                                          <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                      </svg>
+                                      89 Lecture
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
